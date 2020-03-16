@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Sample Web Form</title>
+    </head>
+<body>
+{% extends "bootstrap.html" %}
+
+{% block content %}
+
+<div class="container-fluid h-100">
+  <div class="row h-100">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col-6">
+      <center>
+    <div class="container" id='x'>
+        <h1>GeeksforGeeks</h1>
+    </div>
+
+    <p>
+        Click the buttons to show
+        or hide the green box
+    </p>
+
+    <button onclick="showElement()">
+        Show Element
+    </button>
+
+    <button onclick="hideElement()">
+        Hide Element
+    </button>
+</center>
+
+<script type="text/javascript">
+    function showElement() {
+        element = $('#rx').val();
+        element.style.visibility = 'visible';
+    }
+
+    function hideElement() {
+        element = $('#rx').val();
+        element.style.visibility = 'hidden';
+    }
+</script>
+
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+
+
+
+
+{%endblock%}

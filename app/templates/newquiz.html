@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Sample Web Form</title>
+    </head>
+<body>
+{% extends "bootstrap.html" %}
+
+{% block content %}
+
+<div class="container-fluid h-100">
+  <div class="row h-100">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col-6">
+      <h1>past-madi</h1>
+      <p class="text-left">Root:</p>
+      <p class="text-left">Verb tipe:</p>
+      <p class="text-left">Time:</p>
+
+
+      <form action="/quiz" method="POST">
+
+        <p class="text-right">أنا</p>
+        <div class="form-group">
+          <textarea class="form-control" name="r1"  rows="1"></textarea>
+        </div>
+        <p class="text-right">أنتَ</p>
+        <div class="form-group">
+          <textarea class="form-control" name="r2"  rows="1"></textarea>
+        </div>
+        <p class="text-right">أنتِ</p>
+        <div class="form-group">
+          <textarea class="form-control" name="r3"  rows="1"></textarea>
+        </div>
+        <p class="text-right"> هو</p>
+        <div class="form-group">
+          <textarea class="form-control" name="r4"  rows="1"></textarea>
+        </div>
+        <p class="text-right"> هي</p>
+        <div class="form-group">
+          <textarea class="form-control" name="r5"  rows="1"></textarea>
+        </div>
+        <p class="text-right"> نحن</p>
+        <div class="form-group">
+          <textarea class="form-control" name="r6"  rows="1"></textarea>
+        </div>
+        <p class="text-right"> أنتم</p>
+        <div class="form-group">
+          <textarea class="form-control" name="r7"  rows="1"></textarea>
+        </div>
+        <p class="text-right">أنتن</p>
+        <div class="form-group">
+          <textarea class="form-control" name="r8"  rows="1"></textarea>
+        </div>
+        <p class="text-right">  هم</p>
+        <div class="form-group">
+          <textarea class="form-control" name="r9"  rows="1"></textarea>
+        </div>
+        <p class="text-right"> هن</p>
+        <div class="form-group">
+          <textarea class="form-control" name="r10"  rows="1"></textarea>
+        </div>
+
+          
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+
+
+
+
+{%endblock%}

@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <title>Sample Web Form</title>
+    </head>
+<body>
+{% extends "bootstrap.html" %}
+
+{% block content %}
+
+<div class="container-fluid h-100">
+  <div class="row h-100">
+    <div class="col">
+    </div>
+    <div class="col-6">
+      <br>
+      <br>
+      <p>
+      Root: {{root}}
+      <br>
+      Time: {{time}}
+      </p>
+
+
+      <form class="form">
+
+        <div class="form-group">
+          <p class="text-right">أنا</p>
+          <label class="sr-only" for="nameInput">Name1</label>
+          <input type="text" class="form-control" id="r1" >
+          <div id="aa1" style="display:none;" class="alert alert-info"  role="alert">
+            <p class="text-right">{{a1}} </p></div>
+        </div>
+        <div id="successAlert1" class="alert alert-success"  role="alert" style="display:none;"></div>
+        <div id="errorAlert1" class="alert alert-danger" role="alert" style="display:none;"></div>
+
+			  <div class="form-group">
+          <p class="text-right">أنتَ</p>
+          <label class="sr-only" for="nameInput">Name2</label>
+          <input type="text" class="form-control" id="r2">
+          <div id="aa2" style="display:none;" class="alert alert-info"  role="alert">
+            <p class="text-right">{{a2}} </p></div>
+        </div>
+        <div id="successAlert2" class="alert alert-success"  role="alert" style="display:none;"></div>
+        <div id="errorAlert2" class="alert alert-danger" role="alert" style="display:none;"></div>
+
+			  <div class="form-group">
+          <p class="text-right">أنتِ</p>
+          <label class="sr-only" for="nameInput">Name3</label>
+          <input type="text" class="form-control" id="r3">
+          <div id="aa3" style="display:none;" class="alert alert-info"  role="alert">
+            <p class="text-right">{{a3}} </p></div>
+        </div>
+        <div id="successAlert3" class="alert alert-success"  role="alert" style="display:none;"></div>
+        <div id="errorAlert3" class="alert alert-danger" role="alert" style="display:none;"></div>
+
+        <div class="form-group">
+          <p class="text-right">هو</p>
+          <label class="sr-only" for="nameInput">Name4</label>
+          <input type="text" class="form-control" id="r4">
+          <div id="aa4" style="display:none;" class="alert alert-info"  role="alert">
+            <p class="text-right">{{a4}} </p></div>
+        </div>
+        <div id="successAlert4" class="alert alert-success"  role="alert" style="display:none;"></div>
+        <div id="errorAlert4" class="alert alert-danger" role="alert" style="display:none;"></div>
+
+        <div class="form-group">
+          <p class="text-right">هي</p>
+          <label class="sr-only" for="nameInput">Name5</label>
+          <input type="text" class="form-control" id="r5">
+          <div id="aa5" style="display:none;" class="alert alert-info"  role="alert">
+            <p class="text-right">{{a5}} </p></div>
+
+        </div>
+        <div id="successAlert5" class="alert alert-success"  role="alert" style="display:none;"></div>
+        <div id="errorAlert5" class="alert alert-danger" role="alert" style="display:none;"></div>
+
+        <div class="form-group">
+          <p class="text-right">نحن</p>
+          <label class="sr-only" for="nameInput">Name6</label>
+          <input type="text" class="form-control" id="r6">
+          <div id="aa6" style="display:none;" class="alert alert-info"  role="alert">
+            <p class="text-right">{{a6}} </p></div>
+
+        </div>
+        <div id="successAlert6" class="alert alert-success"  role="alert" style="display:none;"></div>
+        <div id="errorAlert6" class="alert alert-danger" role="alert" style="display:none;"></div>
+
+        <div class="form-group">
+          <p class="text-right">أنتم</p>
+          <label class="sr-only" for="nameInput">Name7</label>
+          <input type="text" class="form-control" id="r7">
+          <div id="aa7" style="display:none;" class="alert alert-info"  role="alert">
+            <p class="text-right">{{a7}} </p></div>        </div>
+        <div id="successAlert7" class="alert alert-success"  role="alert" style="display:none;"></div>
+        <div id="errorAlert7" class="alert alert-danger" role="alert" style="display:none;"></div>
+
+        <div class="form-group">
+          <p class="text-right">أنتن</p>
+          <label class="sr-only" for="nameInput">Name8</label>
+          <input type="text" class="form-control" id="r8">
+          <div id="aa8" style="display:none;" class="alert alert-info"  role="alert">
+            <p class="text-right">{{a8}} </p></div>        </div>
+        <div id="successAlert8" class="alert alert-success"  role="alert" style="display:none;"></div>
+        <div id="errorAlert8" class="alert alert-danger" role="alert" style="display:none;"></div>
+
+        <div class="form-group">
+          <p class="text-right">هم</p>
+          <label class="sr-only" for="nameInput">Name9</label>
+          <input type="text" class="form-control" id="r9">
+          <div id="aa9" style="display:none;" class="alert alert-info"  role="alert">
+            <p class="text-right">{{a9}} </p></div>        </div>
+        <div id="successAlert9" class="alert alert-success"  role="alert" style="display:none;"></div>
+        <div id="errorAlert9" class="alert alert-danger" role="alert" style="display:none;"></div>
+
+          <div class="form-group">
+          <p class="text-right">هن</p>
+          <label class="sr-only" for="nameInput">Name10</label>
+          <input type="text" class="form-control" id="r10">
+          <div id="aa10" style="display:none;" class="alert alert-info"  role="alert">
+            <p class="text-right">{{a10}} </p></div>        </div>
+        <div id="successAlert10" class="alert alert-success"  role="alert" style="display:none;"></div>
+        <div id="errorAlert10" class="alert alert-danger" role="alert" style="display:none;"></div>
+
+        <button type="submit" class="btn btn-default">Submit</button>
+
+
+      </form>
+      <button onclick="myFunction()">Show answers</button>
+
+    </div>
+    <div class="col">
+    </div>
+  </div>
+
+
+
+
+{%endblock%}

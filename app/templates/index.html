@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Sample Web Form</title>
+    </head>
+<body>
+{% extends "bootstrap.html" %}
+
+{% block content %}
+
+<div class="container-fluid h-100">
+  <div class="row h-100">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col-6">
+      <button onclick="myFunction()">Click Me</button>
+
+      <div id="myDIV" style="display:none;" class="alert alert-info" role="alert">
+        Jaja
+      </div>
+
+      <div id="myDIV2" style="display:none;" class="alert alert-info" role="alert">
+        jiji
+      </div>
+    </div>
+
+
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+</div>
+
+
+
+
+{%endblock%}
