@@ -9,6 +9,14 @@ width: 100%;
 object-fit: cover;
 }
 
+.containerx{
+  height: 400;
+  width : auto;
+  background-color: blue;
+}
+.container{
+  background-color: #f5f3f3
+}
 /*--- navigation bar ---*/
 
 .navbar {

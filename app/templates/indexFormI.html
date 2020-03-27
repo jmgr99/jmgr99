@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Sample Web Form</title>
+    </head>
+<body>
+{% extends "bootstrap.html" %}
+
+{% block content %}
+
+<div class="container-fluid h-100">
+  <div class="row h-100">
+    <div class="col">
+    </div>
+    <div class="col-7">
+
+
+      <br>
+       <font color="red">Verb:</font> {{pastIIIsgmasc}}/{{presentIIIsgmasc}}
+       <span style="float:right;">
+       <font color="red">فعل:</font> {{presentIIIsgmasc}}/{{pastIIIsgmasc}}
+       </span>
+       <br>
+       <font color="red">Root:</font> {{root}}
+       <span style="float:right;">
+       <font color="red">جدر:</font> {{root}}
+       </span>
+       <br>
+       <font color="red">Form:</font> {{form}}
+       <span style="float:right;">
+       <font color="red">وزن:</font> {{wasan}}
+       </span>
+       <br>
+       <h3><p class="text-center">الماضي/Past</p></h3>
+
+<!--      <div class="col-5 mx-auto"-->
+       <table class="table table-dark">
+         <tbody>
+           <tr>
+             <td class="text-right">{{pastIsg}}</td>
+             <td class="text-right">أنا</td>
+           </tr>
+           <tr>
+             <td class="text-right">{{pastIIsgmasc}}</td>
+             <td class="text-right">أنتَ</td>
+           </tr>
+           <tr>
+             <td class="text-right">{{pastIIsgfem}}</td>
+             <td class="text-right">أنتِ</td>
+           </tr>
+           <tr>
+             <td class="text-right">{{pastIIdual}}</td>
+             <td class="text-right">أنتما</td>
+           </tr>
+           <tr>
+             <td class="text-right">{{pastIIIsgmasc}}</td>
+             <td class="text-right">هو</td>
+           </tr>
+           <tr>
+             <td class="text-right">{{pastIIIsgfem}}</td>
+             <td class="text-right">هي</td>
+           </tr>
+           <tr>
+             <td class="text-right">{{pastIIIdualmasc}}</td>
+             <td class="text-right">هما</td>
+           </tr>
+           <tr>
+             <td class="text-right">{{pastIIIdualfem}}</td>
+             <td class="text-right">هما</td>
+           </tr>
+           <tr>
+             <td class="text-right">{{pastIpl}}</td>
+             <td class="text-right">نحن</td>
+           </tr>
+           <tr>
+             <td class="text-right">{{pastIIplmasc}}</td>
+             <td class="text-right">أنتم</td>
+           </tr>
+           <tr>
+             <td class="text-right">{{pastIIplfem}}</td>
+             <td class="text-right">أنتن</td>
+           </tr>
+           <tr>
+             <td class="text-right">{{pastIIIplmasc}}</td>
+             <td class="text-right">هم</td>
+           </tr>
+           <tr>
+             <td class="text-right">{{pastIIIplfem}}</td>
+             <td class="text-right">هن</td>
+           </tr>
+
+         </tbody>
+       </table>
+<!--     </div> -->
+  </div>
+
+
+    <div class="col">
+    </div>
+</div>
+
+
+
+
+{%endblock%}

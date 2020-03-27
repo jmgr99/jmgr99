@@ -20,18 +20,19 @@ object-fit: cover;
   color: #fff;
   cursor: pointer;
 }
+.navbar-collapse {
+  max-height: 280px;
+  overflow-y: auto;
+}
 
 .nav-link {
-  margin-right: 1em !important;
+  margin-left: 1em !important;
 }
 
 .nav-link:hover {
   color: #000;
 }
 
-.navbar-collapse {
-  justify-content: flex-end;
-}
 
 .col {
     background-color: #4c4caa;

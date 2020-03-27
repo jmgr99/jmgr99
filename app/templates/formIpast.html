@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <title>Form I past</title>
+    </head>
+{% extends "bootstrap.html" %}
+{% block content %}
+<body>
+<div class="container">
+<hr>
+<font color="red">Verb:</font> {{pastIIIsgmasc}}/{{presentIIIsgmasc}}
+<span style="float:right;">
+<font color="red">فعل:</font> {{presentIIIsgmasc}}/{{pastIIIsgmasc}}
+</span>
+<br>
+<font color="red">Root:</font> {{root}}
+<span style="float:right;">
+<font color="red">جدر:</font> {{root}}
+</span>
+<br>
+<font color="red">Form:</font> {{form}}
+<span style="float:right;">
+<font color="red">وزن:</font> {{wasan}}
+</span>
+<hr>
+<form class="form">
+
+  <div class="form-group">
+    <p class="text-right">أنا</p>
+    <label class="sr-only" for="nameInput">Name1</label>
+    <input type="text" class="form-control" id="r1" >
+    <div id="aa1" style="display:none;" class="alert alert-info"  role="alert">
+       <div class="text-right" id="a1" >{{a1}}</div> </div>
+  </div>
+  <div id="successAlert1" class="alert alert-success"  role="alert" style="display:none;">
+  <div class="text-right">صحيح</div></div>
+  <div id="errorAlert1" class="alert alert-danger" role="alert" style="display:none;">
+  <div class="text-right">خطأ</div></div>
+
+
+
+  <div class="form-group">
+    <p class="text-right">أنتَ</p>
+    <label class="sr-only" for="nameInput">Name2</label>
+    <input type="text" class="form-control" id="r2">
+    <div id="aa2" style="display:none;" class="alert alert-info"  role="alert">
+      <div class="text-right" id="a2" >{{a2}}</div> </div>
+  </div>
+  <div id="successAlert2" class="alert alert-success"  role="alert" style="display:none;">
+  <div class="text-right">صحيح</div></div>
+  <div id="errorAlert2" class="alert alert-danger" role="alert" style="display:none;">
+  <div class="text-right">خطأ</div></div>
+
+  <div class="form-group">
+    <p class="text-right">أنتِ</p>
+    <label class="sr-only" for="nameInput">Name3</label>
+    <input type="text" class="form-control" id="r3">
+    <div id="aa3" style="display:none;" class="alert alert-info"  role="alert">
+      <div class="text-right" id='a3'>{{a3}}</div></div>
+  </div>
+  <div id="successAlert3" class="alert alert-success"  role="alert" style="display:none;">
+  <div class="text-right">صحيح</div></div>
+  <div id="errorAlert3" class="alert alert-danger" role="alert" style="display:none;">
+  <div class="text-right">خطأ</div></div>
+
+  <div class="form-group">
+    <p class="text-right">أنتما</p>
+    <label class="sr-only" for="nameInput">Name4</label>
+    <input type="text" class="form-control" id="r4">
+    <div id="aa4" style="display:none;" class="alert alert-info"  role="alert">
+      <div class="text-right" id='a4'>{{a4}}</div></div>
+  </div>
+  <div id="successAlert4" class="alert alert-success"  role="alert" style="display:none;">
+  <div class="text-right">صحيح</div></div>
+  <div id="errorAlert4" class="alert alert-danger" role="alert" style="display:none;">
+  <div class="text-right">خطأ</div></div>
+
+  <div class="form-group">
+    <p class="text-right">هو</p>
+    <label class="sr-only" for="nameInput">Name5</label>
+    <input type="text" class="form-control" id="r5">
+    <div id="aa5" style="display:none;" class="alert alert-info"  role="alert">
+      <div class="text-right" id='a5'>{{a5}}</div></div>
+
+  </div>
+  <div id="successAlert5" class="alert alert-success"  role="alert" style="display:none;">
+  <div class="text-right">صحيح</div></div>
+  <div id="errorAlert5" class="alert alert-danger" role="alert" style="display:none;">
+  <div class="text-right">خطأ</div></div>
+
+  <div class="form-group">
+    <p class="text-right">هي</p>
+    <label class="sr-only" for="nameInput">Name6</label>
+    <input type="text" class="form-control" id="r6">
+    <div id="aa6" style="display:none;" class="alert alert-info"  role="alert">
+      <div class="text-right" id='a6'>{{a6}}</div></div>
+
+  </div>
+  <div id="successAlert6" class="alert alert-success"  role="alert" style="display:none;">
+  <div class="text-right">صحيح</div></div>
+  <div id="errorAlert6" class="alert alert-danger" role="alert" style="display:none;">
+  <div class="text-right">خطأ</div></div>
+
+  <div class="form-group">
+    <p class="text-right">هما</p>
+    <label class="sr-only" for="nameInput">Name7</label>
+    <input type="text" class="form-control" id="r7">
+    <div id="aa7" style="display:none;" class="alert alert-info"  role="alert">
+      <div class="text-right" id='a7' >{{a7}}</div></div>        </div>
+  <div id="successAlert7" class="alert alert-success"  role="alert" style="display:none;">
+  <div class="text-right">صحيح</div></div>
+  <div id="errorAlert7" class="alert alert-danger" role="alert" style="display:none;">
+  <div class="text-right">خطأ</div></div>
+
+  <div class="form-group">
+    <p class="text-right">هما</p>
+    <label class="sr-only" for="nameInput">Name8</label>
+    <input type="text" class="form-control" id="r8">
+    <div id="aa8" style="display:none;" class="alert alert-info"  role="alert">
+      <div class="text-right" id='a8'>{{a8}}</div></div>        </div>
+
+  <div id="successAlert8" class="alert alert-success"  role="alert" style="display:none;">
+  <div class="text-right">صحيح</div></div>
+  <div id="errorAlert8" class="alert alert-danger" role="alert" style="display:none;">
+  <div class="text-right">خطأ</div></div>
+
+  <div class="form-group">
+    <p class="text-right">نحن</p>
+    <label class="sr-only" for="nameInput">Name9</label>
+    <input type="text" class="form-control" id="r9">
+    <div id="aa9" style="display:none;" class="alert alert-info"  role="alert">
+      <div class="text-right" id='a9' >{{a9}}</div></div></div>
+
+  <div id="successAlert9" class="alert alert-success"  role="alert" style="display:none;">
+  <div class="text-right">صحيح</div></div>
+  <div id="errorAlert9" class="alert alert-danger" role="alert" style="display:none;">
+  <div class="text-right">خطأ</div></div>
+
+    <div class="form-group">
+    <p class="text-right">أنتم</p>
+    <label class="sr-only" for="nameInput">Name10</label>
+    <input type="text" class="form-control" id="r10">
+    <div id="aa10" style="display:none;" class="alert alert-info"  role="alert">
+      <div class="text-right" id='a10'>{{a10}}</div></div>        </div>
+  <div id="successAlert10" class="alert alert-success"  role="alert" style="display:none;">
+  <div class="text-right">صحيح</div></div>
+  <div id="errorAlert10" class="alert alert-danger" role="alert" style="display:none;">
+  <div class="text-right">خطأ</div></div>
+
+    <div class="form-group">
+      <p class="text-right">أنتن</p>
+      <label class="sr-only" for="nameInput">Name11</label>
+      <input type="text" class="form-control" id="r11">
+      <div id="aa11" style="display:none;" class="alert alert-info"  role="alert">
+    <div class="text-right" id='a11'>{{a11}}</div></div>        </div>
+  <div id="successAlert11" class="alert alert-success"  role="alert" style="display:none;">
+  <div class="text-right">صحيح</div></div>
+  <div id="errorAlert11" class="alert alert-danger" role="alert" style="display:none;">
+  <div class="text-right">خطأ</div></div>
+
+  <div class="form-group">
+    <p class="text-right">هم</p>
+    <label class="sr-only" for="nameInput">Name12</label>
+    <input type="text" class="form-control" id="r12">
+    <div id="aa12" style="display:none;" class="alert alert-info"  role="alert">
+  <div class="text-right" id='a12'>{{a12}}</div></div>        </div>
+  <div id="successAlert12" class="alert alert-success"  role="alert" style="display:none;">
+  <div class="text-right">صحيح</div></div>
+  <div id="errorAlert12" class="alert alert-danger" role="alert" style="display:none;">
+  <div class="text-right">خطأ</div></div>
+
+  <div class="form-group">
+    <p class="text-right">هن</p>
+    <label class="sr-only" for="nameInput">Name13</label>
+    <input type="text" class="form-control" id="r13">
+    <div id="aa13" style="display:none;" class="alert alert-info"  role="alert">
+<div class="text-right" id='a13'>{{a13}}</div></div>        </div>
+<div id="successAlert13" class="alert alert-success"  role="alert" style="display:none;">
+<div class="text-right">صحيح</div></div>
+<div id="errorAlert13" class="alert alert-danger" role="alert" style="display:none;">
+<div class="text-right">خطأ</div></div>
+
+  <button type="submit" class="btn btn-default">Submit</button>
+
+
+</form>
+<button onclick="myFunction()">Show answers</button>
+
+    </div>
+</body>
+
+
+
+{%endblock%}

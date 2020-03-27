@@ -14,6 +14,24 @@ $(document).ready(function() {
 				r8 : $('#r8').val(),
 				r9 : $('#r9').val(),
 				r10 : $('#r10').val(),
+				r11 : $('#r11').val(),
+				r12 : $('#r12').val(),
+				r13 : $('#r13').val(),
+				a1 : $('#a1').html(),
+				a2 : $('#a2').html(),
+				a2 : $('#a2').html(),
+				a3 : $('#a3').html(),
+				a4 : $('#a4').html(),
+				a5 : $('#a5').html(),
+				a6 : $('#a6').html(),
+				a7 : $('#a7').html(),
+				a8 : $('#a8').html(),
+				a9 : $('#a9').html(),
+				a10 : $('#a10').html(),
+				a11 : $('#a11').html(),
+				a12 : $('#a12').html(),
+				a13 : $('#a13').html(),
+
 
 
 
@@ -24,98 +42,123 @@ $(document).ready(function() {
 		.done(function(data) {
 
 
-			if ((data.r1) == 'sahih') {
-				$('#successAlert1').text(data.r1).show();
+			if ((data.r1) == 'صحيح') {
+				$('#successAlert1').show();
 				$('#errorAlert1').hide();
 			}
-			if ((data.r1) == 'hata') {
+			if ((data.r1) == 'خطأ') {
 				$('#successAlert1').hide();
-				$('#errorAlert1').text(data.r1).show();
+				$('#errorAlert1').show();
 
 			}
-			if ((data.r2) == 'sahih') {
-				$('#successAlert2').text(data.r2).show();
+			if ((data.r2) == 'صحيح') {
+				$('#successAlert2').show();
 				$('#errorAlert2').hide();
 			}
-			if ((data.r2) == 'hata') {
+			if ((data.r2) == 'خطأ') {
 				$('#successAlert2').hide();
-				$('#errorAlert2').text(data.r2).show();
+				$('#errorAlert2').show();
 
 			}
-			if ((data.r3) == 'sahih') {
-				$('#successAlert3').text(data.r3).show();
+			if ((data.r3) == 'صحيح') {
+				$('#successAlert3').show();
 				$('#errorAlert3').hide();
 			}
-			if ((data.r3) == 'hata') {
+			if ((data.r3) == 'خطأ') {
 				$('#successAlert3').hide();
-				$('#errorAlert3').text(data.r3).show();
+				$('#errorAlert3').show();
 
 			}
-			if ((data.r4) == 'sahih') {
-			  $('#successAlert4').text(data.r4).show();
+			if ((data.r4) == 'صحيح') {
+			  $('#successAlert4').show();
 			  $('#errorAlert4').hide();
 			}
-			if ((data.r4) == 'hata') {
+			if ((data.r4) == 'خطأ') {
 			  $('#successAlert4').hide();
-			  $('#errorAlert4').text(data.r4).show();
+			  $('#errorAlert4').show();
 
 			}
-			if ((data.r5) == 'sahih') {
-			  $('#successAlert5').text(data.r5).show();
+			if ((data.r5) == 'صحيح') {
+			  $('#successAlert5').show();
 			  $('#errorAlert5').hide();
 			}
-			if ((data.r5) == 'hata') {
+			if ((data.r5) == 'خطأ') {
 			  $('#successAlert5').hide();
-			  $('#errorAlert5').text(data.r5).show();
+			  $('#errorAlert5').show();
 
 			}
-			if ((data.r6) == 'sahih') {
-			  $('#successAlert6').text(data.r6).show();
+			if ((data.r6) == 'صحيح') {
+			  $('#successAlert6').show();
 			  $('#errorAlert6').hide();
 			}
-			if ((data.r6) == 'hata') {
+			if ((data.r6) == 'خطأ') {
 			  $('#successAlert6').hide();
-			  $('#errorAlert6').text(data.r6).show();
+			  $('#errorAlert6').show();
 
 			}
-			if ((data.r7) == 'sahih') {
-			  $('#successAlert7').text(data.r7).show();
+			if ((data.r7) == 'صحيح') {
+			  $('#successAlert7').show();
 			  $('#errorAlert7').hide();
 			}
-			if ((data.r7) == 'hata') {
+			if ((data.r7) == 'خطأ') {
 			  $('#successAlert7').hide();
-			  $('#errorAlert7').text(data.r7).show();
+			  $('#errorAlert7').show();
 
 			}
-			if ((data.r8) == 'sahih') {
-			  $('#successAlert8').text(data.r8).show();
+			if ((data.r8) == 'صحيح') {
+			  $('#successAlert8').show();
 			  $('#errorAlert8').hide();
 			}
-			if ((data.r8) == 'hata') {
+			if ((data.r8) == 'خطأ') {
 			  $('#successAlert8').hide();
-			  $('#errorAlert8').text(data.r8).show();
+			  $('#errorAlert8').show();
 
 			}
-			if ((data.r9) == 'sahih') {
-			  $('#successAlert9').text(data.r9).show();
+			if ((data.r9) == 'صحيح') {
+			  $('#successAlert9').show();
 			  $('#errorAlert9').hide();
 			}
-			if ((data.r9) == 'hata') {
+			if ((data.r9) == 'خطأ') {
 			  $('#successAlert9').hide();
-			  $('#errorAlert9').text(data.r9).show();
+			  $('#errorAlert9').show();
 
 			}
-			if ((data.r10) == 'sahih') {
-			  $('#successAlert10').text(data.r10).show();
+			if ((data.r10) == 'صحيح') {
+			  $('#successAlert10').show();
 			  $('#errorAlert10').hide();
 			}
-			if ((data.r10) == 'hata') {
+			if ((data.r10) == 'خطأ') {
 			  $('#successAlert10').hide();
-			  $('#errorAlert10').text(data.r10).show();
+			  $('#errorAlert10').show();
 
 			}
+			if ((data.r11) == 'صحيح') {
+			  $('#successAlert11').show();
+			  $('#errorAlert11').hide();
+			}
+			if ((data.r11) == 'خطأ') {
+			  $('#successAlert11').hide();
+			  $('#errorAlert11').show();
 
+			}
+			if ((data.r12) == 'صحيح') {
+			  $('#successAlert12').show();
+			  $('#errorAlert12').hide();
+			}
+			if ((data.r12) == 'خطأ') {
+			  $('#successAlert12').hide();
+			  $('#errorAlert12').show();
 
+			}
+			if ((data.r13) == 'صحيح') {
+			  $('#successAlert13').show();
+			  $('#errorAlert13').hide();
+			}
+			if ((data.r13) == 'خطأ') {
+			  $('#successAlert13').hide();
+			  $('#errorAlert13').show();
+
+			}
 		});
 
 
@@ -189,5 +232,23 @@ function myFunction() {
 	  aa10.style.display = "block";
 	} else {
 	  aa10.style.display = "none";
+	}
+	var aa11 = document.getElementById("aa11");
+	if (aa11.style.display === "none") {
+		aa11.style.display = "block";
+	} else {
+		aa11.style.display = "none";
+	}
+	var aa12 = document.getElementById("aa12");
+	if (aa12.style.display === "none") {
+		aa12.style.display = "block";
+	} else {
+		aa12.style.display = "none";
+	}
+	var aa13 = document.getElementById("aa13");
+	if (aa13.style.display === "none") {
+		aa13.style.display = "block";
+	} else {
+		aa13.style.display = "none";
 	}
 	}
